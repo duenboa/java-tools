@@ -8,8 +8,8 @@ import java.math.BigDecimal;
 import java.util.Scanner;
 
 /**
- * @author dengbenbo696@lu.com
- * @date 2018/3/30
+ * @author duenboa
+ * @date 2017/3/30
  */
 public class SqlGen {
 
