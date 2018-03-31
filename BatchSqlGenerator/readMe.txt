@@ -1,26 +1,26 @@
-´Ë¹¤¾ßÓÐ4¸ö²ÎÊý:  
-1. Ä£°åsql,ÒÔ{DATE}ÎªÕ¼Î»·û
-2. Éú³ÉÎÄ¼þµÄÇ°×º: ÀýÈçÊäÈë bus_jijin, ÔòÉú³ÉµÄÎÄ¼þÎª: client_flow_record_1.sql, client_flow_record_2.sql
-3. ½»Ò×ÈÕ´®, ÒÔ¶ººÅ·Ö¸ô
-4. ·ÖÒ³Ö®Ã¿¸öÎÄ¼þÖÐsqlÌõÊý. 
+æ­¤å·¥å…·æœ‰4ä¸ªå‚æ•°:  
+1. æ¨¡æ¿sql,ä»¥{DATE}ä¸ºå ä½ç¬¦
+2. ç”Ÿæˆæ–‡ä»¶çš„å‰ç¼€: ä¾‹å¦‚è¾“å…¥ client_flow_record, åˆ™ç”Ÿæˆçš„æ–‡ä»¶ä¸º: client_flow_record_1.sql, client_flow_record_2.sql
+3. äº¤æ˜“æ—¥ä¸², ä»¥é€—å·åˆ†éš”
+4. åˆ†é¡µä¹‹æ¯ä¸ªæ–‡ä»¶ä¸­sqlæ¡æ•°. 
 
-ÒÔÖ´ÐÐbatÃüÁîÆô¶¯¹¤¾ß¼´¿É.
+ä»¥æ‰§è¡Œbatå‘½ä»¤å¯åŠ¨å·¥å…·å³å¯.
 
 
 
------------------------------------------  ÏÂÃæÊÇ²ÎÊýdemo
+-----------------------------------------  ä¸‹é¢æ˜¯å‚æ•°demo
 
--- sql ²ÎÊý¡¡ÐèÒªÍ¨¹ý {DATE} ×÷ÎªÕ¼Î»·û, sqlÊäÈëÍê³Éºó. ±ØÐëÔÚÐÂµÄÒ»ÐÐÊäÈë "end", ×÷Îª½áÊø¹Ø¼ü×ÖÃüÁî.
+-- sql å‚æ•°ã€€éœ€è¦é€šè¿‡ {DATE} ä½œä¸ºå ä½ç¬¦, sqlè¾“å…¥å®ŒæˆåŽ. å¿…é¡»åœ¨æ–°çš„ä¸€è¡Œè¾“å…¥ "end", ä½œä¸ºç»“æŸå…³é”®å­—å‘½ä»¤.
 select * from client_flow_record where create_at < '{DATE}';
 end;
 
--- ÎÄ¼þÃû³Æ
+-- æ–‡ä»¶åç§°
 client_flow_record
 
 
--- ÈÕÆÚ²ÎÊý: 
+-- æ—¥æœŸå‚æ•°: 
 20160311,20160314,20160315,20160316,20160317
 
 
--- ·ÖÒ³´óÐ¡:
+-- åˆ†é¡µå¤§å°:
 100
